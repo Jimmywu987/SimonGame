@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+    text-align: center;
+    padding: 5% 10%;
+    background-color: rgba(9, 73, 101, 0.673);
+}
+
+/*Title*/
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Bangers', cursive;
+    color: rgb(255, 255, 255);
+    word-spacing: 10px;
+}
+.boddy {
+    background-color: red;
+}
+
+main {
+    padding: 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:25px;
+    justify-items: center;
+    
+}
+
+.green {
+    background-color: rgb(125, 205, 46);
+    color: rgb(125, 205, 46);
+}
+
+.red {
+    background-color: tomato;
+    color: tomato;
+}
+
+.yellow {
+    background-color: rgb(238, 221, 25);
+    color: rgb(238, 221, 25);
+}
+
+.blue {
+    background-color: rgb(9, 164, 191);
+    color: rgb(9, 164, 191);
+}
+
+
+
+
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: black 10px solid;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+  .gotWrong {
+    background-color: red;
+  }
